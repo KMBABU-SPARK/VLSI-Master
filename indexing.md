@@ -1,16 +1,5 @@
-# 📘 My VLSI Learning Journey
+# 📑 Table of Contents
 
-Welcome to my GitHub project on learning VLSI!
-
-## 📂 Contents
-| File Name | Description |
-|----------|-------------|
-| `index.md` | Table of contents for the project |
-| `topic1.md` | Basics of VLSI |
-| `topic2.md` | Verilog Language Overview |
-| `topic3.md` | FPGA Design Flow |
-
-## 📷 Sample Image
-![VLSI Diagram](https://upload.wikimedia.org/wikipedia/commons/3/3a/CMOS_Inverter.png)
-
-> “Learning never exhausts the mind.” — Leonardo da Vinci
+1. [VLSI Basics](topic1.md)
+2. [Verilog Language Overview](topic2.md)
+3. [FPGA Design Flow](topic3.md)
