@@ -53,7 +53,7 @@ fulladder n3(z[3],cout,x[3],y[3],c[3]);
 endmodule
 // Here is the code of basic unit of 16bit adder circuit
 //1 bit full adder code
-
+//GATE LEVEL DESCRIPTION 
 module fulladder(sum,cout,x,y,cin);
 input x,y,cin;
 output sum,cout;
@@ -64,5 +64,33 @@ xor g2(sum,s1,cin);
 and g3(c1,s1,cin);
 and g4(c2,x,y);
 xor g5(cout,c1,c2);
+endmodule
+
+//HERE COMES THE TESTBENCH TO CHECK THE CIRCUIT
+
+module alutest;
+reg [15:0]x;
+reg [15:0]y;
+wire [15:0]z;
+wire sign,zero,carry, parity,overflow;
+alu uut(x,y,z,sign,zero,carry,parity,overflow);
+initial begin
+$dumpfile("alu.vcd");
+$dumpvars(0,alutest);
+$monitor($time,"x=%h,y=%h,z=%h,sign=%b,carry=%b,parity=%b,overflow=%b",x,y,z,sign,carry,parity,overflow);
+#5 x=16'h0056;
+y=16'h0001;
+#5 x=16'h0100;
+y=16'h0101;
+#5 x=16'h000b;
+y=16'h0001;
+#5 x=16'h000c;
+y=16'h0001;
+#5 x=16'h000d;
+y=16'h1111;
+#5 x=16'h000e;
+y=16'h1001;
+#5 $finish;
+end
 endmodule
 
