@@ -15,7 +15,7 @@ Feel free to explore, modify, and use the files for your learning or digital des
 
 
 ### 🧾 Example-1
-Q1-design a 16 bit adder and display its waveform
+## Q1-design a 16 bit adder and display its waveform
 ## 16BIT ADDER FLOW CHART
 
 ![Circuit Diagram](https://github.com/KMBABU-SPARK/VLSI-Master/blob/523ca55183cfbf5de04d33f772e4e9ba373d9639/topic1/16BITADDER.png)
@@ -100,3 +100,6 @@ endmodule
 ```
 ## GTKWAVE FORM
 ![Circuit Diagram](https://github.com/KMBABU-SPARK/VLSI-Master/blob/af707deb259ce5c88399e562922dc05d146f138c/topic1/gtkwaveform.png)
+
+### 🧾 Example-2
+## Q2-design a 16 bit Multiplexer and display its waveform
