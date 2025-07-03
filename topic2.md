@@ -97,4 +97,6 @@ y=16'h1001;
 #5 $finish;
 end
 endmodule
-
+```
+## GTKWAVE FORM
+![Circuit Diagram](https://github.com/KMBABU-SPARK/VLSI-Master/blob/af707deb259ce5c88399e562922dc05d146f138c/topic1/gtkwaveform.png)
