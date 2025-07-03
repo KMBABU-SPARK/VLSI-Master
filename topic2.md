@@ -16,6 +16,10 @@ Feel free to explore, modify, and use the files for your learning or digital des
 
 ### 🧾 Example-1
 Q1-design a 16 bit adder and display its waveform
+## Example Image
+
+![Circuit Diagram]()
+
 
 ```verilog
 //here we have designed 16 bit adder using four 4 bit adders
